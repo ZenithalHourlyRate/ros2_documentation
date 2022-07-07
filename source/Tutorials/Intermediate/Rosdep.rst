@@ -120,6 +120,8 @@ Firstly, if this is the first time using ``rosdep``, it must be initialized via:
 This will initialize rosdep and ``update`` will update the locally cached rosdistro index.
 It is a good idea to ``update`` rosdep on occasion to get the latest index.
 
+If you experienced network error during initialization, you may use a mirror site like `TUNA <https://mirrors.tuna.tsinghua.edu.cn/help/rosdistro/>`_ and `BFSU <https://mirrors.bfsu.edu.cn/help/rosdistro/>`_.
+
 Finally, we can run ``rosdep install`` to install dependencies.
 Typically, this is run over a workspace with many packages in a single call to install all dependencies.
 A call for that would appear as the following, if in the root of the workspace with directory ``src`` containing source code.
